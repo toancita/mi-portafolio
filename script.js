@@ -12,7 +12,7 @@ const interests = [
   {
     icon: "fas fa-tv",
     title: "Anime & Manga",
-    description: "No hay nada mejor que ver anime en una laptop en la cama, completamente sola, con un vasito de coca cola y unos snacks. Mi lista de animes favoritos cambia constantemente, siempre publican nuevos interesantes. Mis mangas favoritos son One Piece e InuYasha..."
+    description: "No hay nada mejor que ver anime en una laptop en la cama, completamente sola, con un vasito de coca cola y unos snacks. Mi lista de animes favoritos cambia constantemente, siempre publican nuevos interesantes. Mis mangas favoritos son One Piece e InuYasha, el tipo de historia donde los personajes tienen un objetivo claro y van por él, enfrentándose a todo tipo de adversidades. Me encanta el desarrollo de personajes y las historias que te hacen sentir una conexión emocional con ellos."
   },
   {
     icon: "fas fa-chess",
@@ -27,7 +27,7 @@ const interests = [
   {
     icon: "fas fa-fish",
     title: "Orcas",
-    description: "Las orcas son el mamífero más increíble de toda la historia del planeta tierra. Son los depredadores más audaces, inteligentes y capaces del mar. No tienen competencia alguna, tanto dentro como fuera del océano. Pagaría para que una orca me de una cachetada."
+    description: "Las orcas son el mamífero más increíble de toda la historia del planeta tierra. Son inteligentes, fuertes, ágiles, veloces, sociales y tienen una estructura familiar increíble. Me encanta aprender sobre ellas y ver documentales. Si quieres saber más, te recomiendo el documental 'Blackfish'."
   },
   {
     icon: "fas fa-graduation-cap",
@@ -54,15 +54,31 @@ const metas = [
     description: "Quiero dominar JS para poder crear cositas por mi cuenta."
   },
   {
-    icon: "fas fa-rocket",
-    title: "Publicar mi portafolio",
-    description: "Subir mi sitio a GitHub Pages o Netlify y compartirlo con el mundo."
+    icon: "fas fa-react",
+    title: "Aprender React",
+    description: "Quiero aprender React para poder hacer aplicaciones web modernas y eficientes."
   },
   {
     icon: "fas fa-globe",
     title: "Crear TOpedia",
     description: "Una web que reúna todos mis apuntes y recursos de Terapia Ocupacional."
-  }
+  },
+  {
+    icon: "fas fa-graduation-cap",
+    title: "Titularme",
+    description: "Quiero terminar mi carrera de Terapia Ocupacional y sacar mi título."
+  },
+  {
+    icon: "fas fa-paint-brush",
+    title: "Mejorar mis habilidades de diseño",
+    description: "Quiero aprender más sobre diseño web y UX/UI."
+  },
+  {
+    icon: "fas fa-language",
+    title: "Mejorar mi inglés",
+    description: "Quiero mejorar mis habilidades comunicativas en inglés."
+  },
+  // Puedes agregar más metas aquí
 ];
 
 const goalsList = document.getElementById("goals-list");
